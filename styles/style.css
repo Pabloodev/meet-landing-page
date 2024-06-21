@@ -30,7 +30,7 @@ body {
 }
 
 h1 {
-    font-size: clamp(2.5em, 3.5vw, 64px);
+    font-size: clamp(2.5em, 3.8vw, 64px);
     font-weight: 900;
     line-height: 60px;
     max-width: 445px;
@@ -39,6 +39,7 @@ h1 {
 .paragraph-title, .paragraph-content, footer p {
     color: #87879D;
     font-weight: 500;
+    font-size: 18px;
 }
 
 .buttons {
@@ -99,7 +100,7 @@ h1 {
 }
 
 .content .photos li img {
-    max-width: 15vw;
+    max-width: 17vw;
     min-width: 151px;
     border-radius: 10px;
 }
@@ -119,6 +120,10 @@ h1 {
     font-weight: 1000;
     font-size: 16px;
     letter-spacing: 4px;
+}
+
+.texts-content p {
+    font-size: 18px;
 }
 
 h2, footer h2 {
