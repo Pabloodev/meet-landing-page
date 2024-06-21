@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Red Hat Display", sans-serif;
+    color: rgb(40, 40, 61);
+}
+
+.logo {
+    padding: 5vw;
+    margin-bottom: 1vw;
+}
+
+.main-content {
+    display: flex;
+    margin-bottom: 9vw;
+    gap: 50px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    max-width: 540px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: clamp(2.5em, 3.5vw, 64px);
+    font-weight: 900;
+    line-height: 60px;
+    max-width: 445px;
+}
+
+.paragraph-title, .paragraph-content, footer p {
+    color: #87879D;
+    font-weight: 500;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    border: none;
+    padding: 15px 35px;
+    color: white;
+    border-radius: 25px;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+.download {
+    background-color: #4D96A9;
+}
+
+.download:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #71C0D4;
+}
+
+.download span {
+    color: #8FE3F9;
+}
+
+.what {
+    background-color: #855FB1;
+}
+
+.what:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #B18BDD;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.content .photos {
+    margin: 70px 40px 70px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.content .photos li img {
+    max-width: 15vw;
+    min-width: 151px;
+    border-radius: 10px;
+}
+
+.texts-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 450px;
+    margin-bottom: 7vw;
+}
+
+.texts-content span {
+    color: rgb(77, 150, 168);
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+
+h2, footer h2 {
+    font-size: 40px;
+    color: rgb(40, 40, 61);
+    font-weight: 900;
+    line-height: 40px;
+}
+
+footer h2, footer p {
+    color: white;
+    max-width: 350px;
+}
+
+footer {
+    background: linear-gradient(rgba(77, 150, 168, 0.8), rgba(77, 150, 168, 0.8)), url('/assets/desktop/image-footer.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5vw 15vw;
+    height: 310px;
+}
+
+.last {
+    background-color: #855FB1;
+}
+
+.last:hover {
+    background-color: #B18BDD;
+}
+
+.last span {
+    color: #D9B8FF;
+}
+
+.two {
+    position: absolute;
+    bottom: -30px;
+}

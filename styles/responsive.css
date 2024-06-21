@@ -1,0 +1,38 @@
+@media (max-width: 900px) {
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left img {
+        max-width: 110%;
+    }
+
+    .right {
+        display: none;
+    }
+    
+    .content {
+        margin-bottom: 80px;
+    }
+
+    .texts-content {
+        padding: 30px;
+    }
+
+    .two {
+        position: absolute;
+        bottom: -110px;
+    }
+
+    footer {
+        background: linear-gradient(rgba(77, 150, 168, 0.8), rgba(77, 150, 168, 0.8)), url('/assets/mobile/image-footer.jpg');
+        flex-direction: column;
+        text-align: center;
+        height: 428px;
+        justify-content: center;
+        gap: 50px
+    }
+
+}
