@@ -115,7 +115,7 @@ h1 {
     align-items: center;
     gap: 25px;
     max-width: 450px;
-    margin-bottom: 9vw;
+    margin-bottom: 11vw;
     max-width: 540px;
 }
 
@@ -148,17 +148,31 @@ footer h2, footer p {
 }
 
 footer {
-    background: linear-gradient(rgba(77, 150, 168, 0.8), rgba(77, 150, 168, 0.8)), url('/assets/desktop/image-footer.jpg');
-    background-size: cover;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 100px;
+    position: relative;
+    background-color: #4D96A9;
+    padding: 50px 20px;
     width: 100%;
-    padding: 5vw 15vw;
-    height: 310px;
-    color: white;
+    height: 308px;
+    overflow: hidden;
 }
 
+footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/assets/desktop/image-footer.jpg'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.15; /* Adjust the opacity as needed */
+    z-index: 1;
+}
 
 .last {
     background-color: #855FB1;
@@ -175,4 +189,5 @@ footer {
 .two {
     position: absolute;
     bottom: -30px;
+    z-index: 2;
 }
